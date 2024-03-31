@@ -7,5 +7,5 @@ from Students s
 cross join Subjects sb
 left join examinations e
 on sb.subject_name = e.subject_name and s.student_id = e.student_id
-group by 1,3
+group by 1,2,3
 order by 1,2;
